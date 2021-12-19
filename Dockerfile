@@ -24,6 +24,9 @@ RUN apt-get update && \
 # Clone
 
 RUN cd /Workspace && \
-	git clone https://github.com/opencv/opencv.git && \
-	git clone https://github.com/opencv/opencv_contrib.git
+    git clone https://github.com/opencv/opencv.git && \
+    git clone https://github.com/opencv/opencv_contrib.git
 
+# Test
+
+RUN ./Workspace/run_tests.sh
