@@ -1,6 +1,0 @@
-# action.yml
-name: 'Default CI'
-description: 'Runs Dockerfile at root dir'
-runs:
-  using: 'docker'
-  image: 'Dockerfile'
