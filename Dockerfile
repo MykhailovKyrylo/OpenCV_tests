@@ -29,5 +29,5 @@ RUN cd /Workspace && \
 
 # Test
 
-RUN chmod +x /Workspace/run_tests.sh && \
-    ./Workspace/run_tests.sh
+RUN chmod +x run_tests.sh && \
+    ./run_tests.sh
